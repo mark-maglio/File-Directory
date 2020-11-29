@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace File_Directory
 {
-    public class Directory : FileAstratto
+     public class Directory : FileAstratto
     {
         List<File> Files = new List<File>();
         public Directory(string nome, Directory directory) : base(nome, directory) { }
